@@ -1,3 +1,4 @@
 /.venv
 /msvd
 /msvd_splitted
+/predictions_inference.csv
