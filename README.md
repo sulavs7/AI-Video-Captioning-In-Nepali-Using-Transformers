@@ -121,23 +121,7 @@ Each JSON entry:
 ├── README.md
 ```
 
-### Notebook Sections
 
-| Cell Range | Description |
-|------------|-------------|
-| 1–4        | Dependencies, imports, dataset paths |
-| 5–7        | Video reading (PyAV), frame sampling, preprocessing |
-| 8          | Caption pair builder with multi-caption grouping |
-| 9–11       | Video caching pipeline (optional, for speed) |
-| 13–15      | `VideoCaptionDataset` with random caption sampling |
-| 16         | `QFormerBlock` — cross-attention + self-attention + MLP with dropout |
-| 17         | `VideoCaptioningModel` — full architecture definition |
-| 18         | Model instantiation + LoRA config via PEFT |
-| 19         | Data collator |
-| 20         | WandB initialization |
-| 22–24      | Training arguments, Trainer setup, training loop |
-
----
 
 ## Pre-trained Model
 
